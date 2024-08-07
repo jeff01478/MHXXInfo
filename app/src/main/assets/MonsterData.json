@@ -1,0 +1,566 @@
+[
+    {
+        "id": 1,
+        "name": "青熊獸",
+        "url": "/data/1964.html#id182529",
+        "imageResource": "ic_monster_1"
+    },
+    {
+        "id": 2,
+        "name": "紅兜青熊獸",
+        "url": "/data/2835.html#id217780",
+        "imageResource": "ic_monster_2"
+    },
+    {
+        "id": 3,
+        "name": "霸龍",
+        "url": "/data/2875.html#id227889",
+        "imageResource": "ic_monster_3"
+    },
+    {
+        "id": 4,
+        "name": "炎戈龍",
+        "url": "/data/1848.html#id173385",
+        "imageResource": "ic_monster_4"
+    },
+    {
+        "id": 5,
+        "name": "閣螳螂",
+        "url": "/data/2992.html#id285819",
+        "imageResource": "ic_monster_5"
+    },
+    {
+        "id": 6,
+        "name": "閣螳螂(機械態)",
+        "url": "/data/3002.html#id338248",
+        "imageResource": "ic_monster_6"
+    },
+    {
+        "id": 7,
+        "name": "嵐龍",
+        "url": "/data/1979.html#id183440",
+        "imageResource": "ic_monster_7"
+    },
+    {
+        "id": 8,
+        "name": "徹甲蟲",
+        "url": "/data/2857.html#id219058",
+        "imageResource": "ic_monster_8"
+    },
+    {
+        "id": 9,
+        "name": "煌黑龍",
+        "url": "/data/2879.html#id227890",
+        "imageResource": "ic_monster_9"
+    },
+    {
+        "id": 10,
+        "name": "恐暴龍",
+        "url": "/data/2871.html#id227891",
+        "imageResource": "ic_monster_10"
+    },
+    {
+        "id": 11,
+        "name": "惶怒恐暴龍",
+        "url": "/data/2872.html#id227892",
+        "imageResource": "ic_monster_11"
+    },
+    {
+        "id": 12,
+        "name": "黑狼鳥",
+        "url": "/data/1846.html#id173386",
+        "imageResource": "ic_monster_12"
+    },
+    {
+        "id": 13,
+        "name": "隻眼黑狼鳥",
+        "url": "/data/2868.html#id226941",
+        "imageResource": "ic_monster_13"
+    },
+    {
+        "id": 14,
+        "name": "大怪鳥",
+        "url": "/data/1840.html#id173387",
+        "imageResource": "ic_monster_14"
+    },
+    {
+        "id": 15,
+        "name": "熔岩龍",
+        "url": "/data/1965.html#id182530",
+        "imageResource": "ic_monster_15"
+    },
+    {
+        "id": 16,
+        "name": "崩龍",
+        "url": "/data/2876.html#id227893",
+        "imageResource": "ic_monster_16"
+    },
+    {
+        "id": 17,
+        "name": "爆鎚龍",
+        "url": "/data/1966.html#id182531",
+        "imageResource": "ic_monster_17"
+    },
+    {
+        "id": 18,
+        "name": "寶纏爆鎚龍",
+        "url": "/data/2869.html#id226942",
+        "imageResource": "ic_monster_18"
+    },
+    {
+        "id": 19,
+        "name": "白兔獸",
+        "url": "/data/1980.html#id209376",
+        "imageResource": "ic_monster_19"
+    },
+    {
+        "id": 20,
+        "name": "大雪主白兔獸",
+        "url": "/data/2863.html#id220033",
+        "imageResource": "ic_monster_20"
+    },
+    {
+        "id": 21,
+        "name": "霞龍",
+        "url": "/data/1967.html#id182532",
+        "imageResource": "ic_monster_21"
+    },
+    {
+        "id": 22,
+        "name": "骸龍",
+        "url": "/data/2858.html#id219059",
+        "imageResource": "ic_monster_22"
+    },
+    {
+        "id": 23,
+        "name": "水龍",
+        "url": "/data/1968.html#id182533",
+        "imageResource": "ic_monster_23"
+    },
+    {
+        "id": 24,
+        "name": "巨獸",
+        "url": "/data/1831.html#id182534",
+        "imageResource": "ic_monster_24"
+    },
+    {
+        "id": 25,
+        "name": "銀嶺巨獸",
+        "url": "/data/2972.html#id281682",
+        "imageResource": "ic_monster_25"
+    },
+    {
+        "id": 26,
+        "name": "絞蛇龍",
+        "url": "/data/1849.html#id173388",
+        "imageResource": "ic_monster_26"
+    },
+    {
+        "id": 27,
+        "name": "麒麟",
+        "url": "/data/1969.html#id182535",
+        "imageResource": "ic_monster_27"
+    },
+    {
+        "id": 28,
+        "name": "鋼龍",
+        "url": "/data/1970.html#id182536",
+        "imageResource": "ic_monster_28"
+    },
+    {
+        "id": 29,
+        "name": "鎧龍",
+        "url": "/data/2980.html#id282712",
+        "imageResource": "ic_monster_29"
+    },
+    {
+        "id": 30,
+        "name": "奇猿狐",
+        "url": "/data/1850.html#id173389",
+        "imageResource": "ic_monster_30"
+    },
+    {
+        "id": 31,
+        "name": "重甲蟲",
+        "url": "/data/1971.html#id182537",
+        "imageResource": "ic_monster_31"
+    },
+    {
+        "id": 32,
+        "name": "毒怪鳥",
+        "url": "/data/1972.html#id182538",
+        "imageResource": "ic_monster_32"
+    },
+    {
+        "id": 33,
+        "name": "黑蝕龍",
+        "url": "/data/2830.html#id217108",
+        "imageResource": "ic_monster_33"
+    },
+    {
+        "id": 34,
+        "name": "渾沌黑蝕龍",
+        "url": "/data/2990.html#id285820",
+        "imageResource": "ic_monster_34"
+    },
+    {
+        "id": 35,
+        "name": "冰鮫鯊",
+        "url": "/data/1851.html#id173390",
+        "imageResource": "ic_monster_35"
+    },
+    {
+        "id": 36,
+        "name": "天迴龍",
+        "url": "/data/2864.html#id220034",
+        "imageResource": "ic_monster_36"
+    },
+    {
+        "id": 37,
+        "name": "將軍蟹",
+        "url": "/data/1852.html#id173391",
+        "imageResource": "ic_monster_37"
+    },
+    {
+        "id": 38,
+        "name": "鎧裂將軍蟹",
+        "url": "/data/2982.html#id282886",
+        "imageResource": "ic_monster_38"
+    },
+    {
+        "id": 39,
+        "name": "雷狼龍",
+        "url": "/data/1853.html#id173392",
+        "imageResource": "ic_monster_39"
+    },
+    {
+        "id": 40,
+        "name": "金雷公雷狼龍",
+        "url": "/data/2839.html#id217781",
+        "imageResource": "ic_monster_40"
+    },
+    {
+        "id": 41,
+        "name": "千刃龍",
+        "url": "/data/2831.html#id217109",
+        "imageResource": "ic_monster_41"
+    },
+    {
+        "id": 42,
+        "name": "大名蟹",
+        "url": "/data/1854.html#id173393",
+        "imageResource": "ic_monster_42"
+    },
+    {
+        "id": 43,
+        "name": "矛碎大名蟹",
+        "url": "/data/2836.html#id217782",
+        "imageResource": "ic_monster_43"
+    },
+    {
+        "id": 44,
+        "name": "泡狐龍",
+        "url": "/data/1832.html#id182539",
+        "imageResource": "ic_monster_44"
+    },
+    {
+        "id": 45,
+        "name": "天眼泡狐龍",
+        "url": "/data/2973.html#id281683",
+        "imageResource": "ic_monster_45"
+    },
+    {
+        "id": 46,
+        "name": "角龍",
+        "url": "/data/2962.html#id279106",
+        "imageResource": "ic_monster_46"
+    },
+    {
+        "id": 47,
+        "name": "鏖魔角龍",
+        "url": "/data/2963.html#id279107",
+        "imageResource": "ic_monster_47"
+    },
+    {
+        "id": 48,
+        "name": "轟龍",
+        "url": "/data/1855.html#id173394",
+        "imageResource": "ic_monster_48"
+    },
+    {
+        "id": 49,
+        "name": "荒鉤爪轟龍",
+        "url": "/data/2840.html#id218093",
+        "imageResource": "ic_monster_49"
+    },
+    {
+        "id": 50,
+        "name": "斬龍",
+        "url": "/data/1829.html#id182540",
+        "imageResource": "ic_monster_50"
+    },
+    {
+        "id": 51,
+        "name": "燼滅刃斬龍",
+        "url": "/data/2870.html#id226943",
+        "imageResource": "ic_monster_51"
+    },
+    {
+        "id": 52,
+        "name": "炎王龍",
+        "url": "/data/1973.html#id182541",
+        "imageResource": "ic_monster_52"
+    },
+    {
+        "id": 53,
+        "name": "鬼蛙",
+        "url": "/data/1856.html#id173395",
+        "imageResource": "ic_monster_53"
+    },
+    {
+        "id": 54,
+        "name": "岩穿鬼蛙",
+        "url": "/data/2837.html#id217783",
+        "imageResource": "ic_monster_54"
+    },
+    {
+        "id": 55,
+        "name": "毒猛龍王",
+        "url": "/data/1981.html#id209377",
+        "imageResource": "ic_monster_55"
+    },
+    {
+        "id": 56,
+        "name": "砂龍王",
+        "url": "/data/1974.html#id182542",
+        "imageResource": "ic_monster_56"
+    },
+    {
+        "id": 57,
+        "name": "冰猛龍王",
+        "url": "/data/2989.html#id285778",
+        "imageResource": "ic_monster_57"
+    },
+    {
+        "id": 58,
+        "name": "痹猛龍王",
+        "url": "/data/1983.html#id209379",
+        "imageResource": "ic_monster_58"
+    },
+    {
+        "id": 59,
+        "name": "野豬王",
+        "url": "/data/1975.html#id182543",
+        "imageResource": "ic_monster_59"
+    },
+    {
+        "id": 60,
+        "name": "跳狗龍王",
+        "url": "/data/1836.html#id182544",
+        "imageResource": "ic_monster_60"
+    },
+    {
+        "id": 61,
+        "name": "迅猛龍王",
+        "url": "/data/1984.html#id209380",
+        "imageResource": "ic_monster_61"
+    },
+    {
+        "id": 62,
+        "name": "雪獅子王",
+        "url": "/data/1857.html#id173396",
+        "imageResource": "ic_monster_62"
+    },
+    {
+        "id": 63,
+        "name": "尾槌獸",
+        "url": "/data/1976.html#id182545",
+        "imageResource": "ic_monster_63"
+    },
+    {
+        "id": 64,
+        "name": "迅龍",
+        "url": "/data/1839.html#id173397",
+        "imageResource": "ic_monster_64"
+    },
+    {
+        "id": 65,
+        "name": "白疾風迅龍",
+        "url": "/data/2838.html#id217784",
+        "imageResource": "ic_monster_65"
+    },
+    {
+        "id": 66,
+        "name": "影蜘蛛",
+        "url": "/data/2979.html#id282713",
+        "imageResource": "ic_monster_66"
+    },
+    {
+        "id": 67,
+        "name": "岩龍",
+        "url": "/data/2983.html#id282887",
+        "imageResource": "ic_monster_67"
+    },
+    {
+        "id": 68,
+        "name": "桃毛獸王",
+        "url": "/data/2971.html#id281684",
+        "imageResource": "ic_monster_68"
+    },
+    {
+        "id": 69,
+        "name": "潛口龍",
+        "url": "/data/1858.html#id173398",
+        "imageResource": "ic_monster_69"
+    },
+    {
+        "id": 70,
+        "name": "天彗龍",
+        "url": "/data/2964.html#id279108",
+        "imageResource": "ic_monster_70"
+    },
+    {
+        "id": 71,
+        "name": "碎龍",
+        "url": "/data/1859.html#id173399",
+        "imageResource": "ic_monster_71"
+    },
+    {
+        "id": 72,
+        "name": "猛爆碎龍",
+        "url": "/data/2991.html#id285821",
+        "imageResource": "ic_monster_72"
+    },
+    {
+        "id": 73,
+        "name": "白電",
+        "url": "/data/1860.html#id173400",
+        "imageResource": "ic_monster_73"
+    },
+    {
+        "id": 74,
+        "name": "冰牙龍",
+        "url": "/data/2966.html#id279109",
+        "imageResource": "ic_monster_74"
+    },
+    {
+        "id": 75,
+        "name": "土砂龍",
+        "url": "/data/2965.html#id279110",
+        "imageResource": "ic_monster_75"
+    },
+    {
+        "id": 76,
+        "name": "夜鳥",
+        "url": "/data/1845.html#id182546",
+        "imageResource": "ic_monster_76"
+    },
+    {
+        "id": 77,
+        "name": "朧隱夜鳥",
+        "url": "/data/2981.html#id282714",
+        "imageResource": "ic_monster_77"
+    },
+    {
+        "id": 78,
+        "name": "黑龍",
+        "url": "/data/2993.html#id285822",
+        "imageResource": "ic_monster_78"
+    },
+    {
+        "id": 79,
+        "name": "紅龍",
+        "url": "/data/2994.html#id285823",
+        "imageResource": "ic_monster_79"
+    },
+    {
+        "id": 80,
+        "name": "祖龍",
+        "url": "/data/2995.html#id285824",
+        "imageResource": "ic_monster_80"
+    },
+    {
+        "id": 81,
+        "name": "金獅子",
+        "url": "/data/2873.html#id227894",
+        "imageResource": "ic_monster_81"
+    },
+    {
+        "id": 82,
+        "name": "激昂金獅子",
+        "url": "/data/2874.html#id227895",
+        "imageResource": "ic_monster_82"
+    },
+    {
+        "id": 83,
+        "name": "電龍",
+        "url": "/data/1830.html#id182547",
+        "imageResource": "ic_monster_83"
+    },
+    {
+        "id": 84,
+        "name": "青電主電龍",
+        "url": "/data/2974.html#id281685",
+        "imageResource": "ic_monster_84"
+    },
+    {
+        "id": 85,
+        "name": "老山龍",
+        "url": "/data/2977.html#id282277",
+        "imageResource": "ic_monster_85"
+    },
+    {
+        "id": 86,
+        "name": "海龍",
+        "url": "/data/1861.html#id173401",
+        "imageResource": "ic_monster_86"
+    },
+    {
+        "id": 87,
+        "name": "赤甲獸",
+        "url": "/data/1977.html#id182548",
+        "imageResource": "ic_monster_87"
+    },
+    {
+        "id": 88,
+        "name": "雌火龍",
+        "url": "/data/1862.html#id173402",
+        "imageResource": "ic_monster_88"
+    },
+    {
+        "id": 89,
+        "name": "紫毒姬雌火龍",
+        "url": "/data/2834.html#id217785",
+        "imageResource": "ic_monster_89"
+    },
+    {
+        "id": 90,
+        "name": "金火龍",
+        "url": "/data/2877.html#id227896",
+        "imageResource": "ic_monster_90"
+    },
+    {
+        "id": 91,
+        "name": "雄火龍",
+        "url": "/data/1863.html#id173403",
+        "imageResource": "ic_monster_91"
+    },
+    {
+        "id": 92,
+        "name": "黒炎王火龍",
+        "url": "/data/2833.html#id217786",
+        "imageResource": "ic_monster_92"
+    },
+    {
+        "id": 93,
+        "name": "銀火龍",
+        "url": "/data/2878.html#id227897",
+        "imageResource": "ic_monster_93"
+    },
+    {
+        "id": 94,
+        "name": "水獸",
+        "url": "/data/1978.html#id182549",
+        "imageResource": "ic_monster_94"
+    }
+]
