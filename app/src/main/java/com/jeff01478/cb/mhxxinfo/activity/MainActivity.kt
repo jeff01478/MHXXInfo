@@ -2,6 +2,7 @@ package com.jeff01478.cb.mhxxinfo.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun observeViewModel() {
         mainViewModel.monsters.observe(this) { monsters ->
+            Log.d("GOOD", monsters[0].weakness.toString())
             adapter = MonsterAdapter(monsters)
             monsterRecyclerView.adapter = adapter
         }
