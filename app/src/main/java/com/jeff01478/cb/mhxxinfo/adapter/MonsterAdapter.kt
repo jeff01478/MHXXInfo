@@ -37,6 +37,7 @@ class MonsterAdapter(val monsterList: List<Monster>) : RecyclerView.Adapter<Mons
         holder.monsterImage.setImageResource(resourceId)
         holder.monsterView.setOnClickListener {
             val intent = Intent(holder.itemView.context, MonsterInfoActivity::class.java)
+            intent.putExtra("position", position)
             holder.itemView.context.startActivity(intent)
         }
     }
