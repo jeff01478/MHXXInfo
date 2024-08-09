@@ -11,21 +11,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp">
+            android:layout_height="150dp">
 
             <ImageView
                 android:id="@+id/monsterImageView"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
+                android:padding="8dp"
                 android:src="@drawable/ic_monster_1" />
 
             <TextView
                 android:id="@+id/monsterNameTextView"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="3"
+                android:layout_weight="2.5"
                 android:paddingLeft="10dp"
                 android:gravity="center_vertical"
                 android:textColor="@color/white"
@@ -34,19 +34,25 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:text="會幹你蜂蜜幹到死的白痴熊" />
-        
+
         <TableLayout
             android:id="@+id/weaknessTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TableLayout
+            android:id="@+id/elementTableLayout"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
 
     </LinearLayout>
 
