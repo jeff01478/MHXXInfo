@@ -1,59 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/cardview_dark_background">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp">
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:background="@color/cardview_dark_background" />
 
-            <ImageView
-                android:id="@+id/monsterImageView"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="8dp"
-                android:src="@drawable/ic_monster_1" />
-
-            <TextView
-                android:id="@+id/monsterNameTextView"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2.5"
-                android:paddingLeft="10dp"
-                android:gravity="center_vertical"
-                android:textColor="@color/white"
-                android:textSize="28sp"
-                android:text="青熊獸" />
-
-        </LinearLayout>
-
-
-        <TableLayout
-            android:id="@+id/weaknessTableLayout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp" />
-
-        <TableLayout
-            android:id="@+id/elementTableLayout"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/monsterName"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
     </LinearLayout>
 
-</ScrollView>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/monsterInfoTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/cardview_dark_background" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/monsterInfoViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20" />
+
+</LinearLayout>
