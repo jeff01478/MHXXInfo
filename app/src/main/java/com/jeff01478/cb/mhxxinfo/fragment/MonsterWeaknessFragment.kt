@@ -2,6 +2,7 @@ package com.jeff01478.cb.mhxxinfo.fragment
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -28,7 +29,7 @@ class MonsterWeaknessFragment(activity: FragmentActivity) : Fragment() {
     private lateinit var monsterNameTextView: TextView
     private lateinit var view: View
 
-    private var position = activity.intent.getIntExtra("position", 0)
+    private val id = activity.intent.getIntExtra("id", 0)
     private var index = 0
 
     override fun onCreateView(
@@ -150,7 +151,7 @@ class MonsterWeaknessFragment(activity: FragmentActivity) : Fragment() {
     private fun observeViewModel() {
         monsterInfoViewModel.monsters.observe(viewLifecycleOwner) { monsters ->
             monsterData = monsters
-            index = monsterData.indexOfFirst { it.id == position }
+            index = monsterData.indexOfFirst { it.id == id }
             setMonsterLayout()
             setElementTableLayout()
             setWeaknessTableLayout()

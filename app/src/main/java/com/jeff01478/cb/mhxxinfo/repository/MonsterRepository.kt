@@ -2,6 +2,7 @@ package com.jeff01478.cb.mhxxinfo.repository
 
 import android.content.Context
 import com.jeff01478.cb.mhxxinfo.data.Monster
+import com.jeff01478.cb.mhxxinfo.data.MonsterMaterial
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -16,6 +17,14 @@ class MonsterRepository(private val context: Context) {
             .use { it.readText() }
         val type = Types.newParameterizedType(List::class.java, Monster::class.java)
         val adapter = moshi.adapter<List<Monster>>(type)
+        return adapter.fromJson(jsonString) ?: emptyList()
+    }
+
+    fun getMonsterMaterial(): List<MonsterMaterial> {
+        val jsonString = context.assets.open("MonsterMaterial.json").bufferedReader()
+            .use { it.readText() }
+        val type = Types.newParameterizedType(List::class.java, MonsterMaterial::class.java)
+        val adapter = moshi.adapter<List<MonsterMaterial>>(type)
         return adapter.fromJson(jsonString) ?: emptyList()
     }
 }
