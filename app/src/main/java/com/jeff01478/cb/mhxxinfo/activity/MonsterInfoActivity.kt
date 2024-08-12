@@ -27,13 +27,13 @@ class MonsterInfoActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
 
     private var index = 0
-    private var position = 0
+    private var id = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_monster_info)
 
-        position = intent.getIntExtra("position", 0)
+        id = intent.getIntExtra("id", 0)
 
         initObject()
         monsterInfoViewModel = ViewModelProvider(this).get(MonsterInfoViewModel::class.java)
@@ -70,7 +70,7 @@ class MonsterInfoActivity : AppCompatActivity() {
     private fun observeViewModel() {
         monsterInfoViewModel.monsters.observe(this) { monsters ->
             monsterData = monsters
-            index = monsterData.indexOfFirst { it.id == position }
+            index = monsterData.indexOfFirst { it.id == id }
             monsterName.text = monsterData[index].name
         }
     }
