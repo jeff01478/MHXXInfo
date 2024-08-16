@@ -7,6 +7,7 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
 import android.widget.TableLayout
 import android.widget.TableRow
 import android.widget.TextView
@@ -17,14 +18,14 @@ import com.jeff01478.cb.mhxxinfo.R
 import com.jeff01478.cb.mhxxinfo.data.MonsterMaterial
 import com.jeff01478.cb.mhxxinfo.viewModel.MonsterMaterialViewModel
 
-class MonsterMaterialFragment(activity: FragmentActivity) : Fragment() {
+class MonsterMaterialFragment(activity: FragmentActivity, private val position: Int) : Fragment() {
 
     private lateinit var monsterMaterialViewModel: MonsterMaterialViewModel
     private lateinit var monsterMaterialData: List<MonsterMaterial>
 
-    private lateinit var gRankTableLayout: TableLayout
-    private lateinit var highRankTableLayout: TableLayout
-    private lateinit var lowRankTableLayout: TableLayout
+    private lateinit var materialTableLayout: TableLayout
+    private lateinit var materialFrameLayout: FrameLayout
+    private lateinit var nodataTextView: TextView
     private lateinit var view: View
 
     private val id = activity.intent.getIntExtra("id", 0)
@@ -47,72 +48,81 @@ class MonsterMaterialFragment(activity: FragmentActivity) : Fragment() {
     }
 
     private fun initObject() {
-        gRankTableLayout = view.findViewById(R.id.gRankTableLayout)
-        highRankTableLayout = view.findViewById(R.id.highRankTableLayout)
-        lowRankTableLayout = view.findViewById(R.id.lowRankTableLayout)
+        materialTableLayout = view.findViewById(R.id.materialTableLayout)
+        materialFrameLayout = view.findViewById(R.id.materialFrameLayout)
+        nodataTextView = view.findViewById(R.id.noDataTextView)
     }
 
-    private fun setGRankTableLayout() {
+    private fun setGRankTableLayout(): Boolean {
+        if (monsterMaterialData[index].material.getValue("GRank").isEmpty())
+            return true
         val headerRow = TableRow(context)
         headerRow.addView(createHeader("G級"))
         headerRow.addView(createHeader("素材", isMaterial = true))
-        gRankTableLayout.addView(headerRow)
+        materialTableLayout.addView(headerRow)
         for ((method, material) in monsterMaterialData[index].material.getValue("GRank")) {
             val dataRow = TableRow(context)
             dataRow.apply {
                 addView(createMethodRow(method))
                 addView(createMaterialRow(material))
             }
-            gRankTableLayout.addView(dataRow)
+            materialTableLayout.addView(dataRow)
             if (isDropTiming) {
                 val dropTimingRow = TableRow(context)
                 dropTimingRow.addView(createDropTimingRow(dropTiming))
                 isDropTiming = false
-                gRankTableLayout.addView(dropTimingRow)
+                materialTableLayout.addView(dropTimingRow)
             }
         }
+        return false
     }
 
-    private fun setHighTableLayout() {
+    private fun setHighTableLayout(): Boolean {
+        if (monsterMaterialData[index].material.getValue("highRank").isEmpty())
+            return true
         val headerRow = TableRow(context)
         headerRow.addView(createHeader("上位"))
         headerRow.addView(createHeader("素材", isMaterial = true))
-        highRankTableLayout.addView(headerRow)
+        materialTableLayout.addView(headerRow)
         for ((method, material) in monsterMaterialData[index].material.getValue("highRank")) {
             val dataRow = TableRow(context)
             dataRow.apply {
                 addView(createMethodRow(method))
                 addView(createMaterialRow(material))
             }
-            highRankTableLayout.addView(dataRow)
+            materialTableLayout.addView(dataRow)
             if (isDropTiming) {
                 val dropTimingRow = TableRow(context)
                 dropTimingRow.addView(createDropTimingRow(dropTiming))
                 isDropTiming = false
-                highRankTableLayout.addView(dropTimingRow)
+                materialTableLayout.addView(dropTimingRow)
             }
         }
+        return false
     }
 
-    private fun setLowTableLayout() {
+    private fun setLowTableLayout(): Boolean {
+        if (monsterMaterialData[index].material.getValue("lowRank").isEmpty())
+            return true
         val headerRow = TableRow(context)
         headerRow.addView(createHeader("下位"))
         headerRow.addView(createHeader("素材", isMaterial = true))
-        lowRankTableLayout.addView(headerRow)
+        materialTableLayout.addView(headerRow)
         for ((method, material) in monsterMaterialData[index].material.getValue("lowRank")) {
             val dataRow = TableRow(context)
             dataRow.apply {
                 addView(createMethodRow(method))
                 addView(createMaterialRow(material))
             }
-            lowRankTableLayout.addView(dataRow)
+            materialTableLayout.addView(dataRow)
             if (isDropTiming) {
                 val dropTimingRow = TableRow(context)
                 dropTimingRow.addView(createDropTimingRow(dropTiming))
                 isDropTiming = false
-                lowRankTableLayout.addView(dropTimingRow)
+                materialTableLayout.addView(dropTimingRow)
             }
         }
+        return false
     }
 
     private fun createHeader(text: String, isMaterial: Boolean = false): TextView {
@@ -187,9 +197,20 @@ class MonsterMaterialFragment(activity: FragmentActivity) : Fragment() {
         monsterMaterialViewModel.monsters.observe(viewLifecycleOwner) { monsters ->
             monsterMaterialData = monsters
             index = monsterMaterialData.indexOfFirst { it.id == id }
-            setGRankTableLayout()
-            if (monsterMaterialData[index].material["highRank"] != null) setHighTableLayout()
-            if (monsterMaterialData[index].material["lowRank"] != null) setLowTableLayout()
+            when (position) {
+                1 -> if (setGRankTableLayout()) {
+                    materialFrameLayout.visibility = View.GONE
+                    nodataTextView.visibility = View.VISIBLE
+                }
+                2 -> if (setHighTableLayout()) {
+                    materialFrameLayout.visibility = View.GONE
+                    nodataTextView.visibility = View.VISIBLE
+                }
+                3 -> if (setLowTableLayout()) {
+                    materialFrameLayout.visibility = View.GONE
+                    nodataTextView.visibility = View.VISIBLE
+                }
+            }
         }
     }
 }

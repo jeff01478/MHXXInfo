@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jeff01478.cb.mhxxinfo.DashedDividerItemDecoration
+import com.jeff01478.cb.mhxxinfo.GlobalVariable
 import com.jeff01478.cb.mhxxinfo.R
 import com.jeff01478.cb.mhxxinfo.adapter.MonsterAdapter
 import com.jeff01478.cb.mhxxinfo.viewModel.MainViewModel
@@ -28,6 +29,11 @@ class MainActivity : AppCompatActivity() {
         observeViewModel()
 
         mainViewModel.loadMonsters()
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        GlobalVariable.isDev = false
     }
 
     private fun initObject() {

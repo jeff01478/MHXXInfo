@@ -10,6 +10,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.jeff01478.cb.mhxxinfo.GlobalVariable
 import com.jeff01478.cb.mhxxinfo.R
 import com.jeff01478.cb.mhxxinfo.activity.MonsterInfoActivity
 import com.jeff01478.cb.mhxxinfo.data.Monster
@@ -36,6 +37,7 @@ class MonsterAdapter(val monsterList: List<Monster>) : RecyclerView.Adapter<Mons
         )
         holder.monsterImage.setImageResource(resourceId)
         holder.monsterView.setOnClickListener {
+            GlobalVariable.isDev = monsterList[position].isDev
             val intent = Intent(holder.itemView.context, MonsterInfoActivity::class.java)
             intent.putExtra("id", monsterList[position].id)
             holder.itemView.context.startActivity(intent)
