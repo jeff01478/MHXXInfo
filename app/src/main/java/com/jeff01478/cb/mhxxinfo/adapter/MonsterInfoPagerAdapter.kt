@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.jeff01478.cb.mhxxinfo.GlobalVariable
-import com.jeff01478.cb.mhxxinfo.data.MonsterMaterial
+import com.jeff01478.cb.mhxxinfo.fragment.DevMonsterMaterialFragment
 import com.jeff01478.cb.mhxxinfo.fragment.MonsterMaterialFragment
 import com.jeff01478.cb.mhxxinfo.fragment.MonsterWeaknessFragment
 
@@ -15,17 +15,19 @@ class MonsterInfoPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStat
     override fun createFragment(position: Int): Fragment {
         return when(position) {
             0 -> MonsterWeaknessFragment(context)
-            1 -> MaterialFregment()
+            1 -> materialFragment(position)
+            2 -> materialFragment(position)
+            3 -> materialFragment(position)
             else -> throw IllegalStateException("Unexpected position $position")
         }
     }
 
-    override fun getItemCount(): Int = 2
+    override fun getItemCount(): Int = 4
 
-    private fun MaterialFregment(): Fragment =
+    private fun materialFragment(position: Int): Fragment =
         if (GlobalVariable.isDev) {
-            MonsterMaterialFragment(context)
+            DevMonsterMaterialFragment(context, position)
         } else {
-            MonsterMaterialFragment(context)
+            MonsterMaterialFragment(context, position)
         }
 }

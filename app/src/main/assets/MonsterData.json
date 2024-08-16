@@ -60,7 +60,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 1,
@@ -123,7 +124,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 2,
@@ -208,7 +210,8 @@
                 "dragon": "30",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 3,
@@ -293,7 +296,8 @@
                 "dragon": "0 (25)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 4,
@@ -389,7 +393,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 5,
@@ -485,7 +490,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 6,
@@ -570,7 +576,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 7,
@@ -633,7 +640,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 8,
@@ -707,7 +715,8 @@
                 "dragon": "5 (20)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 9,
@@ -781,7 +790,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 10,
@@ -855,7 +865,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 11,
@@ -940,7 +951,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 12,
@@ -1025,7 +1037,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 13,
@@ -1110,7 +1123,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 14,
@@ -1195,7 +1209,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 15,
@@ -1280,7 +1295,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 16,
@@ -1365,7 +1381,8 @@
                 "dragon": "25",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 17,
@@ -1461,7 +1478,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 18,
@@ -1524,7 +1542,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 19,
@@ -1587,7 +1606,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 20,
@@ -1672,7 +1692,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 21,
@@ -1779,7 +1800,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 22,
@@ -1864,7 +1886,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 23,
@@ -1927,7 +1950,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 24,
@@ -2001,7 +2025,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 25,
@@ -2086,7 +2111,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 26,
@@ -2138,7 +2164,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 27,
@@ -2234,7 +2261,8 @@
                 "dragon": "30 (40)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 28,
@@ -2308,7 +2336,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 29,
@@ -2371,7 +2400,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 30,
@@ -2434,7 +2464,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 31,
@@ -2519,7 +2550,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 32,
@@ -2615,7 +2647,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 33,
@@ -2711,7 +2744,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 34,
@@ -2796,7 +2830,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 35,
@@ -2892,7 +2927,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 36,
@@ -2977,7 +3013,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 37,
@@ -3073,7 +3110,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 38,
@@ -3169,7 +3207,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 39,
@@ -3265,7 +3304,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 40,
@@ -3361,7 +3401,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 41,
@@ -3435,7 +3476,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 42,
@@ -3531,7 +3573,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 43,
@@ -3616,7 +3659,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 44,
@@ -3712,7 +3756,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 45,
@@ -3808,7 +3853,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 46,
@@ -3904,7 +3950,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 47,
@@ -3989,7 +4036,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 48,
@@ -4074,7 +4122,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 49,
@@ -4181,7 +4230,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 50,
@@ -4277,7 +4327,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 51,
@@ -4362,7 +4413,8 @@
                 "dragon": "15 (25)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 52,
@@ -4436,7 +4488,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 53,
@@ -4510,7 +4563,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 54,
@@ -4540,7 +4594,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 55,
@@ -4625,7 +4680,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 56,
@@ -4655,7 +4711,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 57,
@@ -4685,7 +4742,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 58,
@@ -4715,7 +4773,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 59,
@@ -4756,7 +4815,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 60,
@@ -4786,7 +4846,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 61,
@@ -4838,7 +4899,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 62,
@@ -4934,7 +4996,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 63,
@@ -5030,7 +5093,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 64,
@@ -5126,7 +5190,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 65,
@@ -5211,7 +5276,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 66,
@@ -5307,7 +5373,8 @@
                 "dragon": "15",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 67,
@@ -5370,7 +5437,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 68,
@@ -5466,7 +5534,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 69,
@@ -5562,7 +5631,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 70,
@@ -5647,7 +5717,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 71,
@@ -5732,7 +5803,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 72,
@@ -5806,7 +5878,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 73,
@@ -5891,7 +5964,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 74,
@@ -5954,7 +6028,8 @@
                 "dragon": "10 (0)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 75,
@@ -6028,7 +6103,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 76,
@@ -6102,7 +6178,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 77,
@@ -6198,7 +6275,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 78,
@@ -6294,7 +6372,8 @@
                 "dragon": "20 (25)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 79,
@@ -6390,7 +6469,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 80,
@@ -6453,7 +6533,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 81,
@@ -6516,7 +6597,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 82,
@@ -6601,7 +6683,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 83,
@@ -6686,7 +6769,8 @@
                 "dragon": "5",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 84,
@@ -6782,7 +6866,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 85,
@@ -6867,7 +6952,8 @@
                 "dragon": "10",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 86,
@@ -6952,7 +7038,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 87,
@@ -7037,7 +7124,8 @@
                 "dragon": "25",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 88,
@@ -7133,7 +7221,8 @@
                 "dragon": "15 (20)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 89,
@@ -7229,7 +7318,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 90,
@@ -7314,7 +7404,8 @@
                 "dragon": "20",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 91,
@@ -7410,7 +7501,8 @@
                 "dragon": "15 (20)",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": true
     },
     {
         "id": 92,
@@ -7506,7 +7598,8 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     },
     {
         "id": 93,
@@ -7591,6 +7684,7 @@
                 "dragon": "0",
                 "stun": "0"
             }
-        }
+        },
+        "isDev": false
     }
 ]

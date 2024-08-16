@@ -45,7 +45,9 @@ class MonsterInfoActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = when (position) {
                 0 -> "弱點"
-                1 -> "素材"
+                1 -> "G級"
+                2 -> "上位"
+                3 -> "下位"
                 else -> "GOOD"
             }
         }.attach()

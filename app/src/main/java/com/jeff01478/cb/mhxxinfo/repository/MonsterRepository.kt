@@ -1,6 +1,7 @@
 package com.jeff01478.cb.mhxxinfo.repository
 
 import android.content.Context
+import com.jeff01478.cb.mhxxinfo.data.DevMonsterMaterial
 import com.jeff01478.cb.mhxxinfo.data.Monster
 import com.jeff01478.cb.mhxxinfo.data.MonsterMaterial
 import com.squareup.moshi.Moshi
@@ -25,6 +26,14 @@ class MonsterRepository(private val context: Context) {
             .use { it.readText() }
         val type = Types.newParameterizedType(List::class.java, MonsterMaterial::class.java)
         val adapter = moshi.adapter<List<MonsterMaterial>>(type)
+        return adapter.fromJson(jsonString) ?: emptyList()
+    }
+
+    fun getDevMonsterMaterial(): List<DevMonsterMaterial> {
+        val jsonString = context.assets.open("devMonsterMaterial.json").bufferedReader()
+            .use { it.readText() }
+        val type = Types.newParameterizedType(List::class.java, DevMonsterMaterial::class.java)
+        val adapter = moshi.adapter<List<DevMonsterMaterial>>(type)
         return adapter.fromJson(jsonString) ?: emptyList()
     }
 }
