@@ -30,6 +30,7 @@ class MonsterWeaknessFragment(activity: FragmentActivity) : Fragment() {
     private lateinit var view: View
 
     private val id = activity.intent.getIntExtra("id", 0)
+    private val monster = activity.intent.getBooleanExtra("largeMonster", true)
     private var index = 0
 
     override fun onCreateView(
@@ -41,7 +42,10 @@ class MonsterWeaknessFragment(activity: FragmentActivity) : Fragment() {
         initObject()
         monsterInfoViewModel = ViewModelProvider(this).get(MonsterInfoViewModel::class.java)
         observeViewModel()
-        monsterInfoViewModel.loadMonsters()
+        if (monster)
+            monsterInfoViewModel.loadMonsters()
+        else
+            monsterInfoViewModel.loadSmailMonsters()
         return view
     }
 

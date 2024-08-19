@@ -21,4 +21,11 @@ class MonsterInfoViewModel(application: Application) : AndroidViewModel(applicat
             _monsters.postValue(monsterList)
         }
     }
+
+    fun loadSmailMonsters() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val monsterList = repository.getSmailMonsters()
+            _monsters.postValue(monsterList)
+        }
+    }
 }

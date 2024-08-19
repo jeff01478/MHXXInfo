@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.MHXXInfo" parent="Base.Theme.MHXXInfo" />
+    <style name="Theme.MHXXInfo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MHXXInfo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MHXXInfo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

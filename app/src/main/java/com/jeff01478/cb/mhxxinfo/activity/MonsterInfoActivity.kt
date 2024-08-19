@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
@@ -32,13 +33,19 @@ class MonsterInfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_monster_info)
+        window.statusBarColor = ContextCompat.getColor(this, R.color.black)
 
         id = intent.getIntExtra("id", 0)
+        val monster = intent.getBooleanExtra("largeMonster", true)
 
         initObject()
         monsterInfoViewModel = ViewModelProvider(this).get(MonsterInfoViewModel::class.java)
         observeViewModel()
-        monsterInfoViewModel.loadMonsters()
+
+        if (monster)
+            monsterInfoViewModel.loadMonsters()
+        else
+            monsterInfoViewModel.loadSmailMonsters()
 
         val adapter = MonsterInfoPagerAdapter(this)
         viewPager.adapter = adapter

@@ -1,14 +1,12 @@
 package com.jeff01478.cb.mhxxinfo.adapter
 
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.jeff01478.cb.mhxxinfo.GlobalVariable
 import com.jeff01478.cb.mhxxinfo.R
@@ -40,6 +38,8 @@ class MonsterAdapter(val monsterList: List<Monster>) : RecyclerView.Adapter<Mons
             GlobalVariable.isDev = monsterList[position].isDev
             val intent = Intent(holder.itemView.context, MonsterInfoActivity::class.java)
             intent.putExtra("id", monsterList[position].id)
+            if (monsterList[position].id >= 94)
+                intent.putExtra("largeMonster", false)
             holder.itemView.context.startActivity(intent)
         }
     }
