@@ -15,8 +15,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_back"
-            android:background="@color/cardview_dark_background" />
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_back" />
 
         <TextView
             android:id="@+id/monsterName"

@@ -22,4 +22,11 @@ class MonsterMaterialViewModel(application: Application) : AndroidViewModel(appl
             _monsters.postValue(monsterMaterialList)
         }
     }
+
+    fun loadSmailMonstersMaterial() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val monsterMaterialList = repository.getSmailMonsterMaterial()
+            _monsters.postValue(monsterMaterialList)
+        }
+    }
 }

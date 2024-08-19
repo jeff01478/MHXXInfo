@@ -1,0 +1,709 @@
+[
+    {
+        "id": "94",
+        "name": "艾路(白猫)",
+        "url": "/data/2848.html#id218925",
+        "imageResource": "ic_monster_95",
+        "weakness": {
+            "全身": {
+                "cutting": "85",
+                "impack": "75",
+                "shot": "80",
+                "fire": "100",
+                "water": "100",
+                "thunder": "100",
+                "ice": "100",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "95",
+        "name": "甲殼草食龍",
+        "url": "/data/2849.html#id218926",
+        "imageResource": "ic_monster_96",
+        "weakness": {
+            "頭": {
+                "cutting": "80",
+                "impack": "100",
+                "shot": "90",
+                "fire": "40",
+                "water": "20",
+                "thunder": "40",
+                "ice": "30",
+                "dragon": "10",
+                "stun": "0"
+            },
+            "胴": {
+                "cutting": "70",
+                "impack": "100",
+                "shot": "70",
+                "fire": "40",
+                "water": "20",
+                "thunder": "40",
+                "ice": "30",
+                "dragon": "10",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "96",
+        "name": "草食龍",
+        "url": "/data/1864.html#id209381",
+        "imageResource": "ic_monster_97",
+        "weakness": {
+            "頭": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "80",
+                "fire": "55",
+                "water": "55",
+                "thunder": "55",
+                "ice": "55",
+                "dragon": "10",
+                "stun": "100"
+            },
+            "その他": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "75",
+                "fire": "50",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "10",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "97",
+        "name": "红速龍",
+        "url": "/data/1865.html#id209382",
+        "imageResource": "ic_monster_98",
+        "weakness": {
+            "全身": {
+                "cutting": "45",
+                "impack": "45",
+                "shot": "50",
+                "fire": "20",
+                "water": "50",
+                "thunder": "30",
+                "ice": "20",
+                "dragon": "0",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "98",
+        "name": "熔岩獸",
+        "url": "/data/2865.html#id220035",
+        "imageResource": "ic_monster_99",
+        "weakness": {}
+    },
+    {
+        "id": "99",
+        "name": "甲蟲",
+        "url": "/data/2850.html#id218927",
+        "imageResource": "ic_monster_100",
+        "weakness": {
+            "全身": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "80",
+                "fire": "100",
+                "water": "100",
+                "thunder": "100",
+                "ice": "100",
+                "dragon": "100",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "100",
+        "name": "丸鳥",
+        "url": "/data/2852.html#id218928",
+        "imageResource": "ic_monster_101",
+        "weakness": {
+            "頭": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "80",
+                "fire": "100",
+                "water": "90",
+                "thunder": "90",
+                "ice": "90",
+                "dragon": "5",
+                "stun": "100"
+            },
+            "その他": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "75",
+                "fire": "90",
+                "water": "80",
+                "thunder": "80",
+                "ice": "80",
+                "dragon": "0",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "101",
+        "name": "雪山鹿",
+        "url": "/data/2851.html#id218929",
+        "imageResource": "ic_monster_102",
+        "weakness": {
+            "前進": {
+                "cutting": "100",
+                "impack": "90",
+                "shot": "90",
+                "fire": "100",
+                "water": "50",
+                "thunder": "80",
+                "ice": "5",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "102",
+        "name": "翼蛇龍",
+        "url": "/data/2866.html#id220036",
+        "imageResource": "ic_monster_103",
+        "weakness": {}
+    },
+    {
+        "id": "103",
+        "name": "小鐮蟹",
+        "url": "/data/1866.html#id209383",
+        "imageResource": "ic_monster_104",
+        "weakness": {
+            "全身": {
+                "cutting": "70",
+                "impack": "90",
+                "shot": "50",
+                "fire": "5",
+                "water": "5",
+                "thunder": "30",
+                "ice": "40",
+                "dragon": "0",
+                "stun": "200"
+            }
+        }
+    },
+    {
+        "id": "104",
+        "name": "沙龍",
+        "url": "/data/1867.html#id209384",
+        "imageResource": "ic_monster_105",
+        "weakness": {
+            "頭": {
+                "cutting": "70",
+                "impack": "80",
+                "shot": "80",
+                "fire": "30",
+                "water": "10",
+                "thunder": "40",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "90"
+            },
+            "首下": {
+                "cutting": "110",
+                "impack": "100",
+                "shot": "140",
+                "fire": "30",
+                "water": "10",
+                "thunder": "40",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "0"
+            },
+            "背中": {
+                "cutting": "130",
+                "impack": "140",
+                "shot": "150",
+                "fire": "30",
+                "water": "15",
+                "thunder": "40",
+                "ice": "15",
+                "dragon": "0",
+                "stun": "0"
+            },
+            "腹": {
+                "cutting": "90",
+                "impack": "100",
+                "shot": "150",
+                "fire": "30",
+                "water": "20",
+                "thunder": "40",
+                "ice": "20",
+                "dragon": "0",
+                "stun": "0"
+            },
+            "翼": {
+                "cutting": "70",
+                "impack": "60",
+                "shot": "60",
+                "fire": "25",
+                "water": "10",
+                "thunder": "20",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "0"
+            },
+            "脚": {
+                "cutting": "50",
+                "impack": "45",
+                "shot": "50",
+                "fire": "30",
+                "water": "25",
+                "thunder": "10",
+                "ice": "25",
+                "dragon": "0",
+                "stun": "0"
+            },
+            "尻尾": {
+                "cutting": "60",
+                "impack": "70",
+                "shot": "60",
+                "fire": "25",
+                "water": "10",
+                "thunder": "20",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "105",
+        "name": "巨甲蟲",
+        "url": "/data/2867.html#id220037",
+        "imageResource": "ic_monster_106",
+        "weakness": {}
+    },
+    {
+        "id": "106",
+        "name": "白速龍",
+        "url": "/data/1868.html#id209385",
+        "imageResource": "ic_monster_107",
+        "weakness": {
+            "全身": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "80",
+                "fire": "50",
+                "water": "15",
+                "thunder": "30",
+                "ice": "5",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "107",
+        "name": "盾蟲",
+        "url": "/data/2861.html#id219413",
+        "imageResource": "ic_monster_108",
+        "weakness": {
+            "全身": {
+                "cutting": "10",
+                "impack": "23",
+                "shot": "30",
+                "fire": "10",
+                "water": "10",
+                "thunder": "10",
+                "ice": "10",
+                "dragon": "10",
+                "stun": "10"
+            },
+            "裏返り時": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "80",
+                "fire": "50",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "50",
+                "stun": "50"
+            }
+        }
+    },
+    {
+        "id": "108",
+        "name": "黄速龍",
+        "url": "/data/1869.html#id209386",
+        "imageResource": "ic_monster_109",
+        "weakness": {
+            "全身": {
+                "cutting": "56",
+                "impack": "56",
+                "shot": "60",
+                "fire": "20",
+                "water": "20",
+                "thunder": "30",
+                "ice": "60",
+                "dragon": "0",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "109",
+        "name": "精靈鹿",
+        "url": "/data/1870.html#id209387",
+        "imageResource": "ic_monster_110",
+        "weakness": {
+            "全身": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "80",
+                "fire": "100",
+                "water": "100",
+                "thunder": "100",
+                "ice": "100",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "110",
+        "name": "小桃毛獸",
+        "url": "/data/2970.html#id281661",
+        "imageResource": "ic_monster_111",
+        "weakness": {}
+    },
+    {
+        "id": "111",
+        "name": "狗龍",
+        "url": "/data/1871.html#id209388",
+        "imageResource": "ic_monster_112",
+        "weakness": {
+            "全身": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "85",
+                "fire": "70",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "112",
+        "name": "雌狗龍",
+        "url": "/data/1872.html#id209389",
+        "imageResource": "ic_monster_113",
+        "weakness": {
+            "全身": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "85",
+                "fire": "75",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "113",
+        "name": "小鬼鲛",
+        "url": "/data/2881.html#id229935",
+        "imageResource": "ic_monster_114",
+        "weakness": {}
+    },
+    {
+        "id": "114",
+        "name": "垂皮龍",
+        "url": "/data/2880.html#id229936",
+        "imageResource": "ic_monster_115",
+        "weakness": {}
+    },
+    {
+        "id": "115",
+        "name": "大雷光蟲",
+        "url": "/data/2967.html#id281258",
+        "imageResource": "ic_monster_116",
+        "weakness": {}
+    },
+    {
+        "id": "116",
+        "name": "飛甲蟲",
+        "url": "/data/2854.html#id218930",
+        "imageResource": "ic_monster_117",
+        "weakness": {
+            "全身": {
+                "cutting": "83",
+                "impack": "87",
+                "shot": "85",
+                "fire": "100",
+                "water": "50",
+                "thunder": "10",
+                "ice": "50",
+                "dragon": "0",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "117",
+        "name": "小雪狮",
+        "url": "/data/1873.html#id209390",
+        "imageResource": "ic_monster_118",
+        "weakness": {
+            "全身": {
+                "cutting": "75",
+                "impack": "70",
+                "shot": "75",
+                "fire": "55",
+                "water": "5",
+                "thunder": "15",
+                "ice": "5",
+                "dragon": "0",
+                "stun": "50"
+            }
+        }
+    },
+    {
+        "id": "118",
+        "name": "野猪",
+        "url": "/data/1874.html#id209391",
+        "imageResource": "ic_monster_119",
+        "weakness": {
+            "全身": {
+                "cutting": "100",
+                "impack": "100",
+                "shot": "160",
+                "fire": "50",
+                "water": "50",
+                "thunder": "100",
+                "ice": "40",
+                "dragon": "10",
+                "stun": "150"
+            }
+        }
+    },
+    {
+        "id": "119",
+        "name": "波波",
+        "url": "/data/2855.html#id218931",
+        "imageResource": "ic_monster_120",
+        "weakness": {
+            "頭": {
+                "cutting": "80",
+                "impack": "80",
+                "shot": "80",
+                "fire": "55",
+                "water": "10",
+                "thunder": "15",
+                "ice": "10",
+                "dragon": "10",
+                "stun": "100"
+            },
+            "その他": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "75",
+                "fire": "50",
+                "water": "10",
+                "thunder": "10",
+                "ice": "10",
+                "dragon": "10",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "120",
+        "name": "跳狗龍",
+        "url": "/data/1837.html#id182550",
+        "imageResource": "ic_monster_121",
+        "weakness": {}
+    },
+    {
+        "id": "121",
+        "name": "雲羊鹿",
+        "url": "/data/1875.html#id209392",
+        "imageResource": "ic_monster_122",
+        "weakness": {}
+    },
+    {
+        "id": "122",
+        "name": "梅拉露(黑貓)",
+        "url": "/data/2853.html#id218932",
+        "imageResource": "ic_monster_123",
+        "weakness": {
+            "全身": {
+                "cutting": "85",
+                "impack": "75",
+                "shot": "80",
+                "fire": "100",
+                "water": "100",
+                "thunder": "100",
+                "ice": "100",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "123",
+        "name": "苔藓猪",
+        "url": "/data/1876.html#id209393",
+        "imageResource": "ic_monster_124",
+        "weakness": {
+            "全身": {
+                "cutting": "150",
+                "impack": "150",
+                "shot": "120",
+                "fire": "100",
+                "water": "100",
+                "thunder": "100",
+                "ice": "100",
+                "dragon": "10",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "124",
+        "name": "小盾蟹",
+        "url": "/data/1877.html#id209394",
+        "imageResource": "ic_monster_125",
+        "weakness": {
+            "全身": {
+                "cutting": "80",
+                "impack": "110",
+                "shot": "50",
+                "fire": "30",
+                "water": "5",
+                "thunder": "60",
+                "ice": "20",
+                "dragon": "0",
+                "stun": "200"
+            }
+        }
+    },
+    {
+        "id": "125",
+        "name": "巨蜂",
+        "url": "/data/1878.html#id209395",
+        "imageResource": "ic_monster_126",
+        "weakness": {
+            "全身": {
+                "cutting": "120",
+                "impack": "130",
+                "shot": "110",
+                "fire": "100",
+                "water": "50",
+                "thunder": "10",
+                "ice": "50",
+                "dragon": "0",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "126",
+        "name": "藍速龍",
+        "url": "/data/1879.html#id209396",
+        "imageResource": "ic_monster_127",
+        "weakness": {
+            "全身": {
+                "cutting": "75",
+                "impack": "75",
+                "shot": "80",
+                "fire": "50",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "10",
+                "stun": "100"
+            }
+        }
+    },
+    {
+        "id": "127",
+        "name": "原角龍",
+        "url": "/data/2856.html#id218933",
+        "imageResource": "ic_monster_128",
+        "weakness": {
+            "頭": {
+                "cutting": "30",
+                "impack": "40",
+                "shot": "45",
+                "fire": "0",
+                "water": "45",
+                "thunder": "45",
+                "ice": "45",
+                "dragon": "5",
+                "stun": "100"
+            },
+            "その他": {
+                "cutting": "75",
+                "impack": "80",
+                "shot": "85",
+                "fire": "10",
+                "water": "50",
+                "thunder": "50",
+                "ice": "50",
+                "dragon": "10",
+                "stun": "0"
+            }
+        }
+    },
+    {
+        "id": "128",
+        "name": "首鳴龍",
+        "url": "/data/1838.html#id182551",
+        "imageResource": "ic_monster_129",
+        "weakness": {}
+    },
+    {
+        "id": "129",
+        "name": "水生獸",
+        "url": "/data/1880.html#id209397",
+        "imageResource": "ic_monster_130",
+        "weakness": {
+            "頭": {
+                "cutting": "90",
+                "impack": "95",
+                "shot": "90",
+                "fire": "40",
+                "water": "0",
+                "thunder": "30",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "100"
+            },
+            "その他": {
+                "cutting": "85",
+                "impack": "85",
+                "shot": "80",
+                "fire": "60",
+                "water": "0",
+                "thunder": "25",
+                "ice": "10",
+                "dragon": "0",
+                "stun": "0"
+            }
+        }
+    }
+]

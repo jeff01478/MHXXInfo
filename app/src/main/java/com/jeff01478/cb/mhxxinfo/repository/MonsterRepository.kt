@@ -21,6 +21,14 @@ class MonsterRepository(private val context: Context) {
         return adapter.fromJson(jsonString) ?: emptyList()
     }
 
+    fun getSmailMonsters(): List<Monster> {
+        val jsonString = context.assets.open("smailMonsterData.json").bufferedReader()
+            .use { it.readText() }
+        val type = Types.newParameterizedType(List::class.java, Monster::class.java)
+        val adapter = moshi.adapter<List<Monster>>(type)
+        return adapter.fromJson(jsonString) ?: emptyList()
+    }
+
     fun getMonsterMaterial(): List<MonsterMaterial> {
         val jsonString = context.assets.open("MonsterMaterial.json").bufferedReader()
             .use { it.readText() }
@@ -34,6 +42,14 @@ class MonsterRepository(private val context: Context) {
             .use { it.readText() }
         val type = Types.newParameterizedType(List::class.java, DevMonsterMaterial::class.java)
         val adapter = moshi.adapter<List<DevMonsterMaterial>>(type)
+        return adapter.fromJson(jsonString) ?: emptyList()
+    }
+
+    fun getSmailMonsterMaterial(): List<MonsterMaterial> {
+        val jsonString = context.assets.open("smailMonsterMaterial.json").bufferedReader()
+            .use { it.readText() }
+        val type = Types.newParameterizedType(List::class.java, MonsterMaterial::class.java)
+        val adapter = moshi.adapter<List<MonsterMaterial>>(type)
         return adapter.fromJson(jsonString) ?: emptyList()
     }
 }

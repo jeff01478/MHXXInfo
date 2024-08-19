@@ -25,9 +25,8 @@ class MonsterInfoPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStat
     override fun getItemCount(): Int = 4
 
     private fun materialFragment(position: Int): Fragment =
-        if (GlobalVariable.isDev) {
+        if (GlobalVariable.isDev)
             DevMonsterMaterialFragment(context, position)
-        } else {
+        else
             MonsterMaterialFragment(context, position)
-        }
 }

@@ -29,6 +29,7 @@ class MonsterMaterialFragment(activity: FragmentActivity, private val position: 
     private lateinit var view: View
 
     private val id = activity.intent.getIntExtra("id", 0)
+    private val largeMonster = activity.intent.getBooleanExtra("largeMonster", true)
     private var index = 0
     private var dropTiming = ""
     private var isDropTiming = false
@@ -43,7 +44,10 @@ class MonsterMaterialFragment(activity: FragmentActivity, private val position: 
         initObject()
         monsterMaterialViewModel = ViewModelProvider(this).get(MonsterMaterialViewModel::class.java)
         observeViewModel()
-        monsterMaterialViewModel.loadMonstersMaterial()
+        if (largeMonster)
+            monsterMaterialViewModel.loadMonstersMaterial()
+        else
+            monsterMaterialViewModel.loadSmailMonstersMaterial()
         return view
     }
 
