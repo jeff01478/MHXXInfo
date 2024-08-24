@@ -9,6 +9,7 @@ data class WeaponMap(
     val affinity: String = "0%",
     val elemental: String = "",
     val defense: String = "",
+    val special: String = "",
     val sharpness: Map<String, List<String>>,
     val holo: String
 )

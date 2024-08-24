@@ -21,6 +21,7 @@ class WeaponMapNoDerivativeAdapter(private val weaponMapList: List<WeaponMap>) :
         val affinity: TextView = view.findViewById(R.id.affinity)
         val elemental: TextView = view.findViewById(R.id.elemental)
         val defense: TextView = view.findViewById(R.id.defense)
+        val special: TextView = view.findViewById(R.id.special)
         val holo: TextView = view.findViewById(R.id.holo)
         val sharpnessLinearLayout: LinearLayout = view.findViewById(R.id.sharpnessLinearLayout)
     }
@@ -42,6 +43,7 @@ class WeaponMapNoDerivativeAdapter(private val weaponMapList: List<WeaponMap>) :
         val elementalColor = ContextCompat.getColor(holder.itemView.context, setElementalColor(weaponMap.elemental))
         holder.elemental.setTextColor(elementalColor)
         holder.defense.text = weaponMap.defense
+        holder.special.text = weaponMap.special
         holder.holo.text = weaponMap.holo
 
         val makeWeaponSharpness = MakeWeaponSharpness(holder.itemView.context)
