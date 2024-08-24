@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/shortRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/redSharpness" />
+
+        <TextView
+            android:id="@+id/shortOrange"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/orangeSharpness" />
+
+        <TextView
+            android:id="@+id/shortYellow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/yellowSharpness" />
+
+        <TextView
+            android:id="@+id/shortGreen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/greenSharpness" />
+
+        <TextView
+            android:id="@+id/shortBlue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/blueSharpness" />
+
+        <TextView
+            android:id="@+id/shortWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/whiteSharpness" />
+
+        <TextView
+            android:id="@+id/shortPurple"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/purpleSharpness" />
+
+        <TextView
+            android:id="@+id/shortBlack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/longRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/redSharpness" />
+
+        <TextView
+            android:id="@+id/longOrange"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/orangeSharpness" />
+
+        <TextView
+            android:id="@+id/longYellow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/yellowSharpness" />
+
+        <TextView
+            android:id="@+id/longGreen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/greenSharpness" />
+
+        <TextView
+            android:id="@+id/longBlue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/blueSharpness" />
+
+        <TextView
+            android:id="@+id/longWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/whiteSharpness" />
+
+        <TextView
+            android:id="@+id/longPurple"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/purpleSharpness" />
+
+        <TextView
+            android:id="@+id/longBlack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/background_color" />
+
+    </LinearLayout>
+</LinearLayout>

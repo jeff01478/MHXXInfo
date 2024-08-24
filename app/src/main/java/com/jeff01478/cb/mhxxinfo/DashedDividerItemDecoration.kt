@@ -13,10 +13,11 @@ class DashedDividerItemDecoration(context: Context) : RecyclerView.ItemDecoratio
     private val paint = Paint()
 
     init {
-        paint.color = ContextCompat.getColor(context, R.color.background_color)
+        paint.color = ContextCompat.getColor(context, R.color.white)
         paint.strokeWidth = 5f // 線的寬度
         paint.style = Paint.Style.STROKE
         paint.pathEffect = DashPathEffect(floatArrayOf(15f, 20f), 0f) // 虛線效果：5dp 線段，5dp 間隔
+        paint.alpha = 100 // 設定透明度值 (0-255)
     }
 
     override fun getItemOffsets(outRect: Rect, view: View, parent: RecyclerView, state: RecyclerView.State) {
