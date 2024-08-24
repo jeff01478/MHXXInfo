@@ -10,14 +10,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jeff01478.cb.mhxxinfo.DashedDividerItemDecoration
 import com.jeff01478.cb.mhxxinfo.R
+import com.jeff01478.cb.mhxxinfo.weapon.factory.WeaponMapViewModelFactory
 import com.jeff01478.cb.mhxxinfo.weapon.adapter.WeaponMapAdapter
 import com.jeff01478.cb.mhxxinfo.weapon.viewModel.WeaponMapViewModel
-import kotlin.reflect.jvm.internal.impl.incremental.components.Position
 
-class WeaponMapFragment(private val savePosition: Int? = null) : Fragment() {
+class WeaponMapFragment(private val weaponType: String?,
+                        private val savePosition: Int? = null) : Fragment() {
 
     private lateinit var weaponMapRecyclerView: RecyclerView
     private lateinit var weaponMapViewModel: WeaponMapViewModel
+    private lateinit var weaponMapViewModelFactory: WeaponMapViewModelFactory
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,7 +33,10 @@ class WeaponMapFragment(private val savePosition: Int? = null) : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initObject(view)
         setRecyclerView()
-        weaponMapViewModel = ViewModelProvider(this).get(WeaponMapViewModel::class.java)
+
+        weaponMapViewModelFactory = WeaponMapViewModelFactory(weaponType, requireActivity().application)
+        weaponMapViewModel = ViewModelProvider(this, weaponMapViewModelFactory).
+        get(WeaponMapViewModel::class.java)
         weaponMapViewModel.loadWeaponMap()
         observeViewModel()
     }

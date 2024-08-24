@@ -25,8 +25,21 @@ class WeaponRepository(private val context: Context) {
         return weaponList
     }
 
-    fun getWeaponMap(): List<WeaponMap> {
-        val jsonString = context.assets.open("greatSwordData.json").bufferedReader()
+    fun getWeaponMap(weaponType: String?): List<WeaponMap> {
+        val dataName = when (weaponType) {
+            "大劍" -> "greatSwordData.json"
+            "太刀" -> "longSwordData.json"
+            "雙劍" -> "dualBladesData.json"
+            "單手劍" -> "swordShieldData.json"
+            "大槌" -> "hammerData.json"
+            "長槍" -> "lanceData.json"
+            "銃槍" -> "gunlanceData.json"
+            "盾斧" -> "chargeBladeData.json"
+            "斬擊斧" -> "switchAxeData.json"
+            "操蟲棍" -> "insectGlaiveData.json"
+            else -> "greatSwordData.json"
+        }
+        val jsonString = context.assets.open(dataName).bufferedReader()
             .use { it.readText() }
         val type = Types.newParameterizedType(List::class.java, WeaponMap::class.java)
         val adapter = moshi.adapter<List<WeaponMap>>(type)
